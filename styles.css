@@ -4,10 +4,20 @@
   box-sizing: inherit;
 }
 
+html {
+  font-size: 65%;
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
-  background-color: black;
-  align-items: flex-start;
+  font-family: sans-serif;
+  background: linear-gradient(to right, rgb(103, 91, 91), rgb(66, 65, 65));
+  align-items: center;
+  line-height: 1.5;
+  height: 100vh;
+  position: relative;
+  flex-direction: column;
   justify-content: center;
 }
 
