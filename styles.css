@@ -25,6 +25,16 @@ body {
   text-align: center;
 }
 
+.image-container {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
 .show-modal {
   font-size: 2rem;
   font-weight: 600;
