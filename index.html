@@ -12,16 +12,23 @@
   </head>
   <body>
     <img
-      src="agathachristieorient.png"
-      alt=""
+      src=""
+      alt="Cover Images"
       class="Book"
       class="animate__animated animate__zoomIn"
       id="image"
       width="500"
       height="500"
     />
-    <button class="next-book">Next Book</button>
     <button class="see-review">See Review</button>
+    <div class="container">
+      <button onclick="prevImage()" ="btn btn--previous" id="btnPrevious">
+        Previous Book
+      </button>
+      <button onclick="nextImage()" ="btn btn--next" id="btnNext">
+        Next Book
+      </button>
+    </div>
     <div class="modal hidden">
       <button class="close-modal">&times;</button>
       <h1>MURDER ON THE ORIENT EXPRESS - 5 ⭐️</h1>
